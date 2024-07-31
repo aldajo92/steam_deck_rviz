@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- RVIZ: using custom configuration -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find rviz_steamdeck)/config/config.rviz" />
+
+    <!-- <node pkg="rviz" type="rviz" name="rviz"/> -->
+    <node pkg="joy" type="joy_node" name="joy_node_steam" output="screen"/>
+
+</launch>
