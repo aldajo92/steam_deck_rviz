@@ -53,3 +53,8 @@ Execute this package:
 source ~/catkin_ws/devel/setup.bash
 roslaunch rviz_steamdeck rviz_steam.launch
 ```
+
+# References #
+- https://github.com/ICE9-Robotics/ROS-for-Steam-Deck-OLED
+- https://github.com/ctu-vras/steam-deck-ros-controller?tab=readme-ov-file
+- https://robostack.github.io/GettingStarted.html
